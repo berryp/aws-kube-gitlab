@@ -21,12 +21,12 @@ $ chmod +x /usr/local/bin/gitlab-runner
 ```
 $ kops create cluster \
     --node-count 3 \
-    --zones $(ZONE) \
-    --master-zones $(ZONE) \
-    --dns-zone $(DNS_ZONE) \
+    --zones ${ZONE} \
+    --master-zones ${ZONE} \
+    --dns-zone ${DNS_ZONE} \
     --node-size m4.large \
     --master-size t2.medium \
-    $(NAME)
+    ${NAME}
 ```
 
 *Install the Kubernetes Dashboard*

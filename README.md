@@ -1,4 +1,6 @@
-# Deploy a Kubernetes cluster to AWS and Install Gitlab on the cluster
+# AWS < Kubernetes < Gitlab
+
+Deploy a Kubernetes cluster to AWS and Install Gitlab on the cluster
 
 ## Pre-requisites
 

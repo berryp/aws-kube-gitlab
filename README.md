@@ -62,7 +62,7 @@ $ helm install \
 ```
 $ gitlab-runner register -n \
     --url http://gitlab.dq.berryphillips.com/ \
-    --registration-token $(RUNNER_TOKEN) \
+    --registration-token ${RUNNER_TOKEN} \
     --executor docker \
     --description "Docker Runner" \
     --docker-image "docker:latest" \
